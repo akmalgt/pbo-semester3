@@ -1,8 +1,9 @@
 <?php
 
+namespace App\Math;
 class LuasLingkaran {
     public const phi = 3.14;
-    public int $jari;
+    private int $jari;
 
     public function __construct($iniJari = 1) {
         $this->jari = $iniJari;
@@ -21,9 +22,3 @@ class LuasLingkaran {
         echo "Malas Kali ";
     }
 }
-
-$lingkaran = new LuasLingkaran(10);
-// $lingkaran->jari = 10;
-$lingkaran->tampil("roda");
-
-LuasLingkaran::testing();
